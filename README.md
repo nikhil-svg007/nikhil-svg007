@@ -13,7 +13,7 @@
 
 ## 👨‍💻 About Me
 
-> 🧠 **I design the system before I write the first line of code.**
+> **I design the system before I write the first line of code.**
 
 I build with the **MERN stack** — from clean React UIs to robust Node.js backends. I think in systems, not just features. Whether it's designing a fraud detection engine or architecting a real-time social platform, I focus on building things that actually work at scale.
 
