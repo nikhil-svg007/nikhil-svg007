@@ -13,21 +13,39 @@
 
 ## 👨‍💻 About Me
 
-```javascript
-const nikhil = {
-  role:        "Full-Stack Developer",
-  stack:       ["MongoDB", "Express.js", "React", "Node.js"],
-  focus:       ["System Design", "Real-Time Apps", "Security"],
-  currentlyBuilding: ["DevCircle", "VaultGuard"],
-  funFact:     "I design systems before I write code"
-};
-```
+> 🧠 **I design the system before I write the first line of code.**
 
-- 🔭 Building production-grade full-stack applications with the **MERN stack**
-- 🧠 Passionate about **System Design** — scalability, caching, real-time architecture
-- 🔐 Interested in **application security** — authentication, fraud detection, rate limiting
-- 🌱 Always learning — currently exploring **Redis**, **Socket.io**, and **distributed systems**
-- 💬 Ask me about **MERN Stack, REST APIs, JWT Auth, WebSockets, MongoDB Aggregations**
+I build with the **MERN stack** — from clean React UIs to robust Node.js backends. I think in systems, not just features. Whether it's designing a fraud detection engine or architecting a real-time social platform, I focus on building things that actually work at scale.
+
+- 🏗️ Obsessed with **System Design** — scalability, caching, real-time architecture
+- 🔐 Love diving into **security** — auth, rate limiting, fraud detection
+- 🧩 Strong in **DSA** — LeetCode 1500+ · Codeforces 1100 (Pupil)
+- ⚡ Always exploring — **Redis**, **WebSockets**, **distributed systems**
+- 💬 Ask me anything about **MERN, REST APIs, Socket.io, MongoDB**
+- 🟢 **Open to opportunities**
+
+
+
+---
+
+## 🧩 Problem Solving
+
+<p align="center">
+  <a href="https://leetcode.com/YOUR-LEETCODE-USERNAME">
+    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" />
+  </a>
+  <img src="https://img.shields.io/badge/Rating-1500+-red?style=for-the-badge&logo=leetcode&logoColor=white" />
+  <a href="https://codeforces.com/profile/YOUR-CF-USERNAME">
+    <img src="https://img.shields.io/badge/Codeforces-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" />
+  </a>
+  <img src="https://img.shields.io/badge/Rating-1100-blue?style=for-the-badge&logo=codeforces&logoColor=white" />
+</p>
+
+| Platform | Profile | Rating / Stats |
+|----------|---------|----------------|
+| 🟡 LeetCode | https://leetcode.com/u/I_nikhil/ | ⭐ **1500+** Rating |
+| 🔵 Codeforces | https://codeforces.com/profile/getnikhil96616 | ⭐ **1100** Rating (Pupil) |
+| 💡 Focus Areas | Arrays, Trees, Graphs, DP | System Design problems |
 
 ---
 
@@ -142,16 +160,8 @@ Currently working on expanding my portfolio with projects focused on:
 
 ---
 
-## 📊 GitHub Stats
 
-<p align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=nikhil-svg007&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
-  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=nikhil-svg007&theme=tokyonight&hide_border=true" />
-</p>
 
-<p align="center">
-  <img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nikhil-svg007&layout=compact&theme=tokyonight&hide_border=true" />
-</p>
 
 ---
 
