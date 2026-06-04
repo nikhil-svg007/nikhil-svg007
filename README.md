@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/nikhil-banner.svg" width="100%" alt="Nikhil — Full-Stack Engineer" />
+  <img src="https://raw.githubusercontent.com/nikhil-svg007/assets/main/nikhil-banner.svg" width="100%" alt="Nikhil Banner" />
 </div>
 
 <p align="center">
