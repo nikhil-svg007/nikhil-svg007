@@ -7,7 +7,7 @@
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" />
   </a>
   &nbsp;
-  <a href="mailto:YOUR-EMAIL@gmail.com">
+  <a href="mailto:getnikhil96616@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" />
   </a>
   &nbsp;
@@ -30,9 +30,9 @@
 
 I'm a full-stack engineer specializing in the **MERN stack**, with a strong focus on **system design**, **real-time architecture**, and **security**. I approach every project by thinking through scalability, data flow, and failure modes before writing a single line of code.
 
-Recent work includes a **real-time banking dashboard with a 6-rule fraud detection engine** and a **developer social platform** with live notifications and personalized feeds — both built with production-grade architecture in mind.
+Recent work includes a **real-time banking dashboard with a fraud detection engine**, a **production-style crypto paper-trading simulator** with live Binance price feeds, and an **AI-powered developer collaboration platform** — all built with production-grade architecture in mind.
 
-**Currently open to full-time roles and freelance engagements.**
+**Currently open to full-time roles and internships.**
 
 ---
 
@@ -41,33 +41,36 @@ Recent work includes a **real-time banking dashboard with a 6-rule fraud detecti
 ### [VaultGuard](https://github.com/nikhil-svg007/vaultguard) — Real-Time Banking Dashboard
 > Full-stack banking application with a built-in fraud detection engine and real-time transaction monitoring.
 
-- Designed a **6-rule fraud detection engine** that flags suspicious transactions in real time
-- Built live transaction feed with Socket.io; admin controls for account freeze and rollback
-- Role-based access control across three user tiers: customer, analyst, and admin
-- Redis-powered rate limiting to prevent abuse and brute-force attempts
+- Designed a fraud detection engine flagging transactions by large amounts, high velocity, unusual hours, and round-figure patterns
+- Built a live transaction and fraud-alert feed with Socket.io; admin controls for account freeze, dispute, and rollback
+- Separate customer and admin/analyst portals with role-based access control
+- JWT authentication, bcrypt password hashing, and Redis-powered rate limiting (100 req/min)
 
-`React` `Redux` `Node.js` `Express` `MongoDB` `Redis` `Socket.io` `JWT`
-
----
-
-### [DevCircle](https://github.com/nikhil-svg007/devcircle) — Social Platform for Developers
-> A developer-focused community platform combining elements of Reddit and LinkedIn.
-
-- Real-time notifications and activity feed via Socket.io
-- Nested comment threads, tag-based content discovery, and personalized feed algorithm
-- Authentication via JWT and Google OAuth
-
-`React` `TypeScript` `Node.js` `Express` `MongoDB` `Redis` `Socket.io`
+`React` `Redux Toolkit` `Tailwind CSS` `Node.js` `Express` `MongoDB` `Redis` `Socket.io` `JWT`
 
 ---
 
-### [College Event Management System](https://github.com/nikhil-svg007/college-event-management-system) — Campus Event Platform
-> End-to-end platform for college event creation, registration, and attendance tracking.
+### [Crypto Trading Simulator](https://github.com/nikhil-svg007/crypto-trading-simulator) — Real-Time Paper Trading Platform
+> Production-style MERN crypto paper-trading simulator streaming live Binance prices, with atomic trade execution and FIFO P&L.
 
-- Admin dashboard for event lifecycle management
-- Student registration and attendance tracking system
+- Streams live prices for 7+ trading pairs from the Binance WebSocket API into an in-memory, O(1) price registry
+- Atomic BUY/SELL execution using MongoDB multi-document transactions and conditional atomic updates to prevent overspending/overselling under concurrent requests
+- FIFO-based realized P&L via a dedicated position-lot model, with Decimal128/decimal.js precision handling
+- Redis-cached, trade-invalidated leaderboard and JWT auth with refresh-token rotation via HttpOnly cookies
 
-`JavaScript` `Node.js` `Express` `MongoDB`
+`React` `Vite` `Socket.io Client` `Node.js` `Express` `MongoDB` `Redis` `JWT` `Binance WebSocket API` `decimal.js`
+
+---
+
+### [Workloom](https://github.com/nikhil-svg007/workloom) — AI-Powered Developer Collaboration Platform
+> A single workspace unifying project management, bug tracking, real-time chat, file sharing, and an AI assistant for dev teams.
+
+- Project, task, and bug tracking with role-based and ownership-based access control (Admin/Member) enforced at the API layer
+- Real-time team chat and live activity updates via Socket.io
+- Integrated Google Gemini API for code explanation, bug detection, API/schema generation, and README creation, with per-user rate limiting
+- Secure file uploads via Multer, backed by JWT-authenticated protected routes
+
+`React` `Tailwind CSS` `Node.js` `Express` `MongoDB` `Socket.io` `JWT` `Multer` `Gemini API`
 
 ---
 
@@ -75,11 +78,11 @@ Recent work includes a **real-time banking dashboard with a 6-rule fraud detecti
 
 | Layer | Technologies |
 |---|---|
-| **Frontend** | React, TypeScript, Redux, Tailwind CSS |
+| **Frontend** | React, Vite, Redux Toolkit, Tailwind CSS, Recharts |
 | **Backend** | Node.js, Express.js, Socket.io |
-| **Database / Cache** | MongoDB, Redis |
-| **Auth & Security** | JWT, bcrypt, Google OAuth |
-| **Tools** | Git, Postman, VS Code, Vercel |
+| **Database / Cache** | MongoDB, MySQL, Redis |
+| **Auth & Security** | JWT, bcrypt |
+| **Tools** | Git, NPM, Docker, Postman |
 
 ---
 
@@ -90,7 +93,7 @@ Recent work includes a **real-time banking dashboard with a 6-rule fraud detecti
 | LeetCode | [I_nikhil](https://leetcode.com/u/I_nikhil/) | 1500+ |
 | Codeforces | [getnikhil96616](https://codeforces.com/profile/getnikhil96616) | 1100 — Pupil |
 
-Focus areas: Arrays, Trees, Graphs, Dynamic Programming, System Design problems.
+Solved 300+ DSA problems across Arrays, Trees, Graphs, Dynamic Programming, and System Design fundamentals.
 
 ---
 
