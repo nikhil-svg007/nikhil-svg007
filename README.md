@@ -90,7 +90,7 @@ Recent work includes a **real-time banking dashboard with a fraud detection engi
 
 | Platform | Handle | Rating |
 |---|---|---|
-| LeetCode | [I_nikhil](https://leetcode.com/u/I_nikhil/) | 1500+ |
+| LeetCode | [I_nikhil](https://leetcode.com/u/I_nikhil/) | 1600+ |
 | Codeforces | [getnikhil96616](https://codeforces.com/profile/getnikhil96616) | 1100 — Pupil |
 
 Solved 300+ DSA problems across Arrays, Trees, Graphs, Dynamic Programming, and System Design fundamentals.
